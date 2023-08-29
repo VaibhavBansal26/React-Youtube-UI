@@ -1,0 +1,79 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    background-color: white;
+}
+
+.header__logo{
+    height: 35px;
+    object-fit: contain;
+    margin-left: 20px;
+    flex: 0.3;
+  
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    border: 1px solid  rgb(148, 145, 145);;
+    height:38px;
+    border-radius: 4px;
+    
+    
+    
+}
+
+.header__icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex:0.2;
+}
+
+.header__input > input {
+    flex: 1;
+    border: none;
+    outline-width: 0;
+    font-size: 22px;
+    padding: 1px;
+    padding-left: 10px;
+    color: gray;
+    
+}
+
+.header__inputButton{
+    width: 60px !important; 
+    background-color: #fafafa;
+    border-left: 1px solid rgb(228, 221, 221);
+    color: gray;
+    height:40px !important;
+    padding: 3px !important;
+    cursor: pointer;
+}
+
+.header__icon{
+    margin-right: 5px;
+}
+
+.MuiSvgIcon-root {
+    font-size: 2rem !important;
+    cursor: pointer;
+    padding: 6px !important;
+    color: rgb(48, 46, 46);
+    height: 1.5rem !important;
+    margin-top: 4px !important;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin-right: 4px;
+    flex: 0.5;
+}

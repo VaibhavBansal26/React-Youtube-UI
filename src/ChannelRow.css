@@ -1,0 +1,45 @@
+.channelRow{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.channelRow__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.channelRow__text > p {
+    color: #606060;
+    margin-bottom: 2px;
+    font-size: small !important;
+}
+
+.channelRow__logo{
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px !important;
+}
+
+.channelRow__text > h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.channelRow__btn{
+    background-color:#df2f2fd6 !important;
+    color: white !important;
+    font-weight: bold !important;
+    padding: 15px !important;
+    width: 170px !important;
+    height: 45px !important;
+    margin-left: 200px !important;
+}
+
+.channelRow__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
